@@ -1,25 +1,104 @@
 {
   "planes": [
-    "Ver juntos una película al mismo tiempo y comentarla por chat.",
-    "Escribir una historia juntos: tú una línea, yo otra.",
-    "Mandarnos dibujos hechos a mano de algo gracioso.",
-    "Ver un documental interesante y hablar después.",
-    "Crear una lista de canciones para compartir sentimientos.",
-    "Ver un atardecer desde nuestras ventanas y mandar fotos.",
-    "Leer el mismo cuento corto y contarnos qué entendimos.",
-    "Hacer un test de personalidad y compartir resultados.",
-    "Comparar nuestras rutinas y planear cambios juntos.",
-    "Contar anécdotas que nunca hayamos dicho.",
-    "Dibujar lo que pensamos del otro y enviarlo.",
-    "Mandarnos listas de deseos a futuro (viajes, mascotas…).",
-    "Ver una serie en paralelo, un episodio por semana.",
-    "Buscar un reto de 7 días para parejas y empezarlo.",
-    "Intercambiar cartas digitales (escritas o grabadas).",
-    "Planear una cita futura real: dónde, cuándo, cómo.",
-    "Escribir promesas en un documento compartido.",
-    "Jugar algo online simple como Gartic o Skribbl.io.",
-    "Leer horóscopos y reírnos de lo que dicen.",
-    "Compartir fotos de nuestras comidas ese día.",
-    "Ver un show de talentos y dar puntuación del 1 al 10."
+    {
+      "texto": "Ver juntos una película al mismo tiempo y comentarla por chat.",
+      "categoria": "romantica",
+      "tiempo": "largo"
+    },
+    {
+      "texto": "Escribir una historia juntos: tú una línea, yo otra.",
+      "categoria": "creativa",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Mandarnos dibujos hechos a mano de algo gracioso.",
+      "categoria": "creativa",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Ver un documental interesante y hablar después.",
+      "categoria": "profunda",
+      "tiempo": "largo"
+    },
+    {
+      "texto": "Hacer una lista de canciones que nos recuerden momentos juntos.",
+      "categoria": "romantica",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Comparar nuestras rutinas diarias y buscar formas de mejorarlas.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Jugar en línea un juego tipo Skribbl.io o Gartic.",
+      "categoria": "divertida",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Leer juntos un cuento corto y contarnos qué entendimos.",
+      "categoria": "profunda",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Hacer una videollamada con dibujos en Paint compartiendo pantalla.",
+      "categoria": "divertida",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Planear una cita real en el futuro: lugar, hora, comida, ropa, etc.",
+      "categoria": "romantica",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Mandarnos cartas digitales como si viviéramos en 1950.",
+      "categoria": "creativa",
+      "tiempo": "largo"
+    },
+    {
+      "texto": "Hacer un reto creativo de 3 días con fotos temáticas por día.",
+      "categoria": "creativa",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Responder un test de pareja y comparar respuestas.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Hacer listas de deseos personales y compartirlas.",
+      "categoria": "profunda",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Ver el atardecer cada uno desde su ventana y mandarse fotos.",
+      "categoria": "romantica",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Compartir fotos de lo que estamos comiendo hoy.",
+      "categoria": "divertida",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Buscar juntos casas soñadas y compartir enlaces.",
+      "categoria": "romantica",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Diseñar un mini cómic en línea (cada uno hace una parte).",
+      "categoria": "creativa",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Ver videos musicales antiguos y comentarlos.",
+      "categoria": "divertida",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Contarse anécdotas de infancia que nunca han compartido.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    }
   ]
 }

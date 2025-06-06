@@ -3,17 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Generador de planes</title>
+  <title>Generador de planes - Plan para Dos</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <h1>🌟 Generador de planes 🌟</h1>
+    <p>Filtra y descubre qué podemos hacer juntos hoy</p>
+  </header>
+
   <main>
-    <h1>🎁 Tu plan para hoy es...</h1>
-    <div id="plan" class="plan-box">Haz clic para generar uno</div>
-    <button id="generar" class="btn">Generar nuevo plan</button>
-    <br/><br/>
-    <a href="index.html">← Volver al inicio</a>
+    <section class="filtros">
+      <label for="categoria">Tipo de actividad:</label>
+      <select id="categoria">
+        <option value="todas">Todas</option>
+        <option value="creativa">🎨 Creativa</option>
+        <option value="romantica">💕 Romántica</option>
+        <option value="divertida">🎲 Divertida</option>
+        <option value="profunda">🧠 Profunda</option>
+      </select>
+
+      <label for="tiempo">Tiempo disponible:</label>
+      <select id="tiempo">
+        <option value="corto">15 minutos</option>
+        <option value="medio">1 hora</option>
+        <option value="largo">4 horas</option>
+        <option value="todo">Todo el día</option>
+      </select>
+
+      <button id="generar" class="btn">Generar plan</button>
+    </section>
+
+    <section id="resultado" class="planes-container"></section>
+
+    <div class="volver">
+      <a href="index.html">← Volver al inicio</a>
+    </div>
   </main>
+
   <script src="assets/js/main.js"></script>
 </body>
 </html>

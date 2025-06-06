@@ -1,59 +1,31 @@
-// assets/js/main.js
+const API_URL = 'https://script.google.com/macros/s/AKfycbwJ1X2F3YEH8n3qFjN8G3Po5-8S4L47AVXMe2dP_HIM0i_sCt5whK-iS_xOu1wtgUQgcg/exec'; // <- reemplaza con tu URL
 
-document.addEventListener("DOMContentLoaded", () => {
-  const btnGenerar = document.getElementById("generar");
-  const contenedor = document.getElementById("resultado");
+document.getElementById("generar").addEventListener("click", async () => {
+  const tipo = document.getElementById("tipo").value;
+  const tiempo = document.getElementById("tiempo").value;
+  const resultado = document.getElementById("resultado");
+  resultado.innerHTML = "<p>Generando planes con IA... ✨</p>";
 
-  btnGenerar.addEventListener("click", async () => {
-    const categoria = document.getElementById("categoria").value;
-    const tiempo = document.getElementById("tiempo").value;
+  try {
+    const res = await fetch(API_URL, {
+      method: "POST",
+      body: JSON.stringify({ tipo, tiempo }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
 
-    try {
-      const res = await fetch("assets/data/planes.json");
-      const data = await res.json();
-      let planes = data.planes;
+    const data = await res.json();
+    const ideas = data.candidates?.[0]?.content?.parts?.[0]?.text?.split("\n").filter(i => i.trim() !== "");
 
-      // Filtrar por tiempo
-      planes = planes.filter(plan => plan.tiempo === tiempo || tiempo === "todo" && plan.tiempo === "todo");
-
-      // Filtrar por categoría si no es "todas"
-      if (categoria !== "todas") {
-        planes = planes.filter(plan => plan.categoria === categoria);
-      }
-
-      // Limpiar resultados previos
-      contenedor.innerHTML = "";
-
-      if (planes.length === 0) {
-        contenedor.innerHTML = `<p class="plan-card">No hay planes con esos filtros. Prueba con otras opciones.</p>`;
-        return;
-      }
-
-      // Si es largo o todo el día → mostrar 3 aleatorios
-      const cantidad = (tiempo === "largo" || tiempo === "todo") ? 3 : 1;
-      const seleccionados = seleccionarAleatorios(planes, cantidad);
-
-      seleccionados.forEach(plan => {
-        const div = document.createElement("div");
-        div.className = "plan-card";
-        div.textContent = plan.texto;
-        contenedor.appendChild(div);
-      });
-    } catch (error) {
-      console.error("Error cargando los planes:", error);
-      contenedor.innerHTML = `<p class="plan-card">Ocurrió un error al cargar los planes.</p>`;
-    }
-  });
-
-  function seleccionarAleatorios(array, cantidad) {
-    const copia = [...array];
-    const seleccion = [];
-
-    while (seleccion.length < cantidad && copia.length > 0) {
-      const i = Math.floor(Math.random() * copia.length);
-      seleccion.push(copia.splice(i, 1)[0]);
+    if (!ideas || ideas.length === 0) {
+      resultado.innerHTML = "<p>No se pudo generar planes. Intenta nuevamente.</p>";
+      return;
     }
 
-    return seleccion;
+    resultado.innerHTML = ideas.map(plan => `<div class="plan-card">${plan}</div>`).join("");
+  } catch (err) {
+    resultado.innerHTML = "<p>Error al conectar con el servidor IA.</p>";
+    console.error(err);
   }
 });

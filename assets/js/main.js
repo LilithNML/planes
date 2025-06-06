@@ -1,4 +1,4 @@
-const API_URL = 'https://script.google.com/macros/s/AKfycbwJ1X2F3YEH8n3qFjN8G3Po5-8S4L47AVXMe2dP_HIM0i_sCt5whK-iS_xOu1wtgUQgcg/exec'; // <- reemplaza con tu URL
+const API_URL = 'https://script.google.com/macros/s/AKfycbya60Hf7kB4Ejpt3AztPRHjc9q8daH_-He24V4HzDphiioL8E7DjAC-OiIp3LjM_7xUAg/exec'; // <- reemplaza con tu URL
 
 document.getElementById("generar").addEventListener("click", async () => {
   const tipo = document.getElementById("tipo").value;

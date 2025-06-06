@@ -1,1 +1,26 @@
-
+// assets/data/planes.json
+{
+  "planes": [
+    "Ver juntos una película al mismo tiempo y comentarla por chat.",
+    "Escribir una historia juntos: tú una línea, yo otra.",
+    "Mandarnos dibujos hechos a mano de algo gracioso.",
+    "Ver un documental interesante y hablar después.",
+    "Crear una lista de canciones para compartir sentimientos.",
+    "Ver un atardecer desde nuestras ventanas y mandar fotos.",
+    "Leer el mismo cuento corto y contarnos qué entendimos.",
+    "Hacer un test de personalidad y compartir resultados.",
+    "Comparar nuestras rutinas y planear cambios juntos.",
+    "Contar anécdotas que nunca hayamos dicho.",
+    "Dibujar lo que pensamos del otro y enviarlo.",
+    "Mandarnos listas de deseos a futuro (viajes, mascotas…).",
+    "Ver una serie en paralelo, un episodio por semana.",
+    "Buscar un reto de 7 días para parejas y empezarlo.",
+    "Intercambiar cartas digitales (escritas o grabadas).",
+    "Planear una cita futura real: dónde, cuándo, cómo.",
+    "Escribir promesas en un documento compartido.",
+    "Jugar algo online simple como Gartic o Skribbl.io.",
+    "Leer horóscopos y reírnos de lo que dicen.",
+    "Compartir fotos de nuestras comidas ese día.",
+    "Ver un show de talentos y dar puntuación del 1 al 10."
+  ]
+}

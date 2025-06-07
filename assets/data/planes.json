@@ -1,103 +1,153 @@
 {
   "planes": [
     {
-      "texto": "Ver juntos una película al mismo tiempo y comentarla por chat.",
+      "texto": "Compartir memes que nos representen hoy.",
+      "categoria": "divertida",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Crear una lista de nuestras comidas favoritas por país.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Escribir un diario conjunto: cada uno agrega una entrada diaria.",
+      "categoria": "creativa",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Hacer una encuesta sobre nosotros en Google Forms y responderla.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Mandarnos fotos de nuestras manos haciendo corazones en distintos lugares.",
       "categoria": "romantica",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Armar una lista de metas para este mes (personales y en pareja).",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Elegir una palabra al azar y mandarnos algo relacionado con ella.",
+      "categoria": "creativa",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Contar cosas que nos gustaban cuando éramos pequeños.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Jugar a 'verdad o reto' solo con textos e imágenes.",
+      "categoria": "divertida",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Hacer una guía de viaje imaginaria a un lugar que soñamos conocer juntos.",
+      "categoria": "romantica",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Enviar una canción y explicar qué parte te hace pensar en el otro.",
+      "categoria": "romantica",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Crear un collage digital con fotos que nos gusten.",
+      "categoria": "creativa",
       "tiempo": "largo"
     },
     {
-      "texto": "Escribir una historia juntos: tú una línea, yo otra.",
+      "texto": "Responder preguntas tipo '¿Qué harías si...?' y comparar respuestas.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Inventar nombres graciosos para mascotas que podríamos tener juntos.",
+      "categoria": "divertida",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Enviar fotos de lugares con corazones escondidos (dibujados o naturales).",
+      "categoria": "romantica",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Escribir un poema a cuatro manos: tú haces un verso, yo el siguiente.",
       "categoria": "creativa",
       "tiempo": "medio"
     },
     {
-      "texto": "Mandarnos dibujos hechos a mano de algo gracioso.",
+      "texto": "Hacer una cápsula del tiempo virtual con mensajes y fotos para abrir en 1 año.",
+      "categoria": "profunda",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Contarnos qué haríamos si hoy estuviéramos juntos por 24 horas.",
+      "categoria": "romantica",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Recrear una foto vieja nuestra con objetos de casa y mandárnosla.",
+      "categoria": "creativa",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Hacer un calendario compartido con mini retos románticos diarios.",
+      "categoria": "romantica",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Buscar mensajes bonitos escondidos en letras de canciones.",
+      "categoria": "romantica",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Crear juntos una lista de cosas que nos hacen sentir bien.",
+      "categoria": "profunda",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Compartir objetos de la infancia que aún conservamos.",
+      "categoria": "profunda",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Mandarnos una foto de cómo se ve el cielo desde donde estamos.",
+      "categoria": "romantica",
+      "tiempo": "corto"
+    },
+    {
+      "texto": "Armar juntos una playlist para diferentes emociones.",
+      "categoria": "creativa",
+      "tiempo": "todo"
+    },
+    {
+      "texto": "Contar qué harías si fueras el otro por un día.",
+      "categoria": "divertida",
+      "tiempo": "medio"
+    },
+    {
+      "texto": "Elegir colores del día y buscar cosas que coincidan con ellos.",
       "categoria": "creativa",
       "tiempo": "corto"
     },
     {
-      "texto": "Ver un documental interesante y hablar después.",
-      "categoria": "profunda",
+      "texto": "Diseñar una bandera que represente nuestra relación.",
+      "categoria": "creativa",
       "tiempo": "largo"
     },
     {
-      "texto": "Hacer una lista de canciones que nos recuerden momentos juntos.",
-      "categoria": "romantica",
-      "tiempo": "medio"
-    },
-    {
-      "texto": "Comparar nuestras rutinas diarias y buscar formas de mejorarlas.",
-      "categoria": "profunda",
-      "tiempo": "medio"
-    },
-    {
-      "texto": "Jugar en línea un juego tipo Skribbl.io o Gartic.",
+      "texto": "Compartir una historia graciosa que te haya pasado en el transporte público.",
       "categoria": "divertida",
-      "tiempo": "medio"
-    },
-    {
-      "texto": "Leer juntos un cuento corto y contarnos qué entendimos.",
-      "categoria": "profunda",
       "tiempo": "corto"
     },
     {
-      "texto": "Hacer una videollamada con dibujos en Paint compartiendo pantalla.",
-      "categoria": "divertida",
-      "tiempo": "medio"
-    },
-    {
-      "texto": "Planear una cita real en el futuro: lugar, hora, comida, ropa, etc.",
-      "categoria": "romantica",
-      "tiempo": "todo"
-    },
-    {
-      "texto": "Mandarnos cartas digitales como si viviéramos en 1950.",
+      "texto": "Escribirnos una carta como si estuviéramos en Hogwarts.",
       "categoria": "creativa",
-      "tiempo": "largo"
-    },
-    {
-      "texto": "Hacer un reto creativo de 3 días con fotos temáticas por día.",
-      "categoria": "creativa",
-      "tiempo": "todo"
-    },
-    {
-      "texto": "Responder un test de pareja y comparar respuestas.",
-      "categoria": "profunda",
-      "tiempo": "medio"
-    },
-    {
-      "texto": "Hacer listas de deseos personales y compartirlas.",
-      "categoria": "profunda",
-      "tiempo": "corto"
-    },
-    {
-      "texto": "Ver el atardecer cada uno desde su ventana y mandarse fotos.",
-      "categoria": "romantica",
-      "tiempo": "corto"
-    },
-    {
-      "texto": "Compartir fotos de lo que estamos comiendo hoy.",
-      "categoria": "divertida",
-      "tiempo": "corto"
-    },
-    {
-      "texto": "Buscar juntos casas soñadas y compartir enlaces.",
-      "categoria": "romantica",
-      "tiempo": "todo"
-    },
-    {
-      "texto": "Diseñar un mini cómic en línea (cada uno hace una parte).",
-      "categoria": "creativa",
-      "tiempo": "todo"
-    },
-    {
-      "texto": "Ver videos musicales antiguos y comentarlos.",
-      "categoria": "divertida",
-      "tiempo": "medio"
-    },
-    {
-      "texto": "Contarse anécdotas de infancia que nunca han compartido.",
-      "categoria": "profunda",
       "tiempo": "medio"
     }
   ]
